@@ -11,10 +11,7 @@ const Header = () => {
       <header className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
         <div className="max-w-6xl mx-auto pr-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
           {/* Logo */}
-          <Link
-            to="/"
-            className="block mt-2 md:hidden ml-2"
-          >
+          <Link to="/" className="block mt-2 md:hidden ml-2">
             <img src={Logo} alt="Company's logo" />
           </Link>
 
@@ -65,13 +62,16 @@ const Header = () => {
         {menuOpen && (
           <div className="md:hidden absolute top-16 left-0 w-full bg-white shadow-md p-4 space-y-4 text-[#060C3C] font-semibold">
             <Link to="/" className="block">
-              Home
+              Pricing
             </Link>
             <Link to="/" className="block">
-              Courses
+              Resources Center
             </Link>
             <Link to="/" className="block">
-              Community
+              About
+            </Link>
+            <Link to="/" className="block">
+              Contact
             </Link>
             <Link to="/" className="block">
               Login

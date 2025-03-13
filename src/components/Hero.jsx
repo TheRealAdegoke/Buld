@@ -24,7 +24,7 @@ const Hero = () => {
               />
               <button
                 to="/"
-                className="px-10 py-3 bg-[#6241D4] text-white rounded-md w-[60%]"
+                className="px-10 py-3 bg-[#6241D4] text-white rounded-md w-[60%] max-sm:w-[75%]"
               >
                 Get Started
               </button>
