@@ -31,7 +31,7 @@ const Footer = () => {
             />
             <button
               to="/"
-              className="px-10 py-3 bg-[#6241D4] text-white rounded-md w-[60%]"
+              className="px-10 py-3 bg-[#6241D4] text-white rounded-md w-[60%] max-sm:w-[75%]"
             >
               Get Started
             </button>
@@ -71,7 +71,7 @@ const Footer = () => {
             <p className="text-[#B4B6C4]">Join our slack community</p>
           </div>
         </div>
-        <div className="md:w-[60%] flex justify-evenly max-md:flex-wrap max-md:mt-8 max-md:gap-x-20 max-md:justify-start max-md:mx-auto max-md:w-[90%]">
+        <div className="md:w-[60%] flex justify-evenly max-md:flex-wrap max-md:mt-8 max-md:gap-x-20 max-sm:gap-x-9 max-sm:gap-y-4 max-md:justify-start max-md:mx-auto max-md:w-[90%]">
           <div>
             <h2 className="text-white font-bold mb-4">Product</h2>
             <ul className="flex flex-col gap-y-3">
@@ -117,7 +117,11 @@ const Footer = () => {
           </Link>
         </div>
 
-        <img src={footerBottomImage} alt="Footer Image" className="absolute bottom-32 left-0  max-md:hidden"/>
+        <img
+          src={footerBottomImage}
+          alt="Footer Image"
+          className="absolute bottom-32 left-0  max-md:hidden"
+        />
       </div>
     </footer>
   );
